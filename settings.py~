@@ -1,4 +1,3 @@
-ALLOWED_HOSTS = []
 
 ######################
 # MEZZANINE SETTINGS #
@@ -219,9 +218,8 @@ TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, "templates"),)
 ################
 
 INSTALLED_APPS = (
-    #"mezzanine_themes.vikingmedia",
+    "mezzanine_themes.html5_bootstrap",
     #"mezzanine_themes.classic",
-    "vikingmedia_theme",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -242,8 +240,6 @@ INSTALLED_APPS = (
     #"mezzanine.accounts",
     #"mezzanine.mobile",
 )
-
-THEME = "vikingmedia_theme"
 
 
 # List of processors used by RequestContext to populate the context.
